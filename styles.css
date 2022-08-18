@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("https://i.pinimg.com/originals/b5/32/1a/b5321aba8e02b0790e68081b87ff0269.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Play', sans-serif;
+    color: rgb(250, 210, 210);
+}
+
+.form {
+    background-color: rgba(50, 10, 10, 0.7);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+}
+
+#score {
+    text-align: center;
+    font-size: 15px;
+    color: lightyellow;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
+
+.input:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    opacity: 70%;
+    background-color: lightgreen;
+    border-radius: 10px;
+    color:rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.btn::placeholder {
+    font-family: 'Play', sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(72, 223, 72);
+    transition: background-color 1s ease;
+}
